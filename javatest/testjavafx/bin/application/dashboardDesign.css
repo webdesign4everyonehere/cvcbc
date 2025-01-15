@@ -1,0 +1,184 @@
+/* JavaFX CSS - Leave this comment until you have at least created one rule which uses -fx-Property */
+
+/* General Styles */
+.top-form {
+    -fx-background-color: linear-gradient(to bottom right, #1abc9c, #16a085);
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px;
+}
+
+
+.semi-top-form {
+    -fx-background-color: #f7f7f7;
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px;
+}
+
+.close {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.close:hover {
+    -fx-background-color: #fb3d63;
+}
+
+.minimize {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.minimize:hover {
+    -fx-background-color: #ddd;
+}
+
+.nav-form {
+    -fx-background-color: linear-gradient(to bottom right, #f39c12, #e67e22);
+}
+
+
+.nav-btn {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 15px;
+    -fx-font-family: "Arial";
+    -fx-alignment: CENTER-LEFT;
+}
+
+.logout {
+    -fx-background-color: linear-gradient(to bottom right, #f4a261, #e9c46a, #2a9d8f); /* Gradient from orange to yellow to green */
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff; /* White text for contrast */
+    -fx-font-weight: bold; /* Bold text for emphasis */
+    -fx-font-size: 14px; /* Adjust font size for clarity */
+    -fx-padding: 8px 16px; /* Add padding for a better look */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0.5, 0, 2); /* Add a soft shadow */
+}
+
+.logout:hover {
+    -fx-background-color: linear-gradient(to bottom right, #e76f51, #f4a261, #2a9d8f); /* Slightly darker gradient for hover */
+    -fx-text-fill: #f7f7f7; /* Keep a soft white text on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 6, 0.6, 0, 3); /* Enhance shadow on hover */
+}
+
+
+.shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 6, 0, 0, 0);
+}
+
+.white-bg {
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+
+.card {
+    -fx-background-color: linear-gradient(to bottom right, #e67e22, #f39c12, #27ae60);
+    -fx-background-radius: 4px;
+}
+
+
+
+
+
+/* TableView Styles */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-padding: 0px;
+    -fx-border-color: linear-gradient(to bottom right, #1abc9c, #16a085); /* Green/Blue Gradient */
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to bottom right, #1abc9c, #16a085);
+    -fx-background-radius: 8px 8px 0px 0px;
+    -fx-background-inset: 0 0 0 0;
+}
+
+.table-view .column-header, .filter {
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #fff;
+    -fx-font-family: "Arial";
+}
+
+/* TextField Styles */
+.textfield {
+    -fx-background-color: linear-gradient(to bottom, #f7f7f7, #eee);
+    -fx-background-radius: 4px;
+    -fx-border-color: linear-gradient(to bottom right, #1abc9c, #16a085); /* Green/Blue Gradient */
+    -fx-border-width: 0.8px;
+    -fx-font-family: "Tahoma";
+    -fx-border-radius: 4px;
+}
+
+.textfield:focused {
+    -fx-background-color: #fff;
+    -fx-border-width: 1px;
+}
+
+/* Button Styles */
+.add-btn, .login-btn {
+    -fx-background-color: linear-gradient(to bottom, #2968a7, #14405d);
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+.add-btn:hover, .login-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #277bd0, #1b6fa4);
+}
+
+.update-btn {
+    -fx-background-color: linear-gradient(to bottom, #2d7755, #194730);
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+.update-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #22ad72, #1a7349);
+}
+
+.delete-btn {
+    -fx-background-color: linear-gradient(to bottom, #90242f, #4d0f16);
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+.delete-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #c51f32, #750e1e);
+}
+
+.clear-btn {
+    -fx-background-color: linear-gradient(to bottom, #6e2275, #3d1044);
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+.clear-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #ae21ac, #5e1061);
+}
+
+.label-info {
+    -fx-background-color: #fff;
+    -fx-background-radius: 4px;
+    -fx-border-color: linear-gradient(to bottom right, #aa6ad1, #69bde1);
+    -fx-border-width: 0.8px;
+    -fx-font-family: "Tahoma";
+    -fx-border-radius: 4px;
+    -fx-padding: 0px 0px 0px 5px;
+}
